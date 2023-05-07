@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Smart Home</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome">Welcome</string>
+    <string name="welcome_msg">Thanks for using our products. If you does not have account, please register for new account.</string>
+
+    <string-array name="menuString">
+        <item>Connection</item>
+        <item>Server setting</item>
+        <item>Synchronization</item>
+        <item>Setup wizard</item>
+        <item>Load Image</item>
+        <item>Device registration</item>
+        <item>Module registration</item>
+        <item>General</item>
+        <item>Diagnostic test</item>
+        <item>Reset</item>
+        <item>Update firmware</item>
+        <item>About us</item>
+        <item>Account</item>
+    </string-array>
+
+    <string-array name="floorSelected">
+        <item>Basement</item>
+        <item>Ground floor</item>
+        <item>First floor</item>
+        <item>Second floor</item>
+        <item>Third floor</item>
+        <item>Penthouse</item>
+    </string-array>
+
+    <string-array name="zoneSelected">
+        <item>Entrance</item>
+        <item>Living room</item>
+        <item>Bedroom I</item>
+        <item>Bedroom II</item>
+        <item>Bedroom III</item>
+        <item>Master bedroom I</item>
+        <item>Master bedroom II</item>
+        <item>Master bedroom III</item>
+        <item>Bathroom I</item>
+        <item>Bathroom II</item>
+        <item>Toilet I</item>
+        <item>Toilet II</item>
+        <item>Toilet III</item>
+        <item>Kitchen</item>
+    </string-array>
+
+    <string-array name="accountLevel">
+        <item>Demo User</item>
+        <item>Home User</item>
+        <item>Administrator</item>
+    </string-array>
+
+</resources>

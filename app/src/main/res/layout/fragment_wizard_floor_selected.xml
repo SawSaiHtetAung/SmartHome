@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".setting.setupWizard.WizardFloorSelected" >
+
+    <FrameLayout
+        android:id="@+id/void1"
+        android:layout_width="match_parent"
+        android:layout_height="94dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/floorListTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:text="Number of floors"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/floorIncrease"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/void1" />
+
+    <ImageView
+        android:id="@+id/floorDecrease"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="16dp"
+        android:scaleType="fitCenter"
+        app:elevation="5dp"
+        app:layout_constraintEnd_toStartOf="@+id/floorInd"
+        app:layout_constraintTop_toBottomOf="@+id/void1"
+        app:srcCompat="@drawable/ic_decrease" />
+
+    <TextView
+        android:id="@+id/floorInd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="@font/electrolize"
+        android:text="1"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/floorDecrease"
+        app:layout_constraintEnd_toStartOf="@+id/floorIncrease"
+        app:layout_constraintTop_toBottomOf="@+id/void1" />
+
+    <ImageView
+        android:id="@+id/floorIncrease"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="30dp"
+        android:scaleType="fitCenter"
+        app:elevation="5dp"
+        app:layout_constraintEnd_toEndOf="@+id/void1"
+        app:layout_constraintTop_toBottomOf="@+id/void1"
+        app:srcCompat="@drawable/ic_increase" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/materialCardView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        app:cardElevation="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/floorIncrease">
+
+        <ListView
+            android:id="@+id/floorsList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </com.google.android.material.card.MaterialCardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

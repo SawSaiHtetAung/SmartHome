@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="developed_by">Safe Season smart home technology Co.,Ltd \nNo.16, Independent street, Thuwanna Township, Yangon, Myanmar.
+        \ncontact us: +95 (9) 776437645 \nemail: contactus@safeseasonmyanmar.com
+    \nwww.safeseasonmyanmar.com</string>
+
+    <string name="about_configuration">Smart Home server configuration Services (each a “Services” or “Configuration” and
+        together the “Configuration Services”  or “Services”) are portfolio of services that include: hardware and software
+        settings, operation system settings, floor configuration, clock configuration, etc.
+    \nPlease Note: The Service Attachment to this Service Description include specification for each configuration Services detail in next other steps.</string>
+
+    <string name="userResponsibilities">For each Configuration Service ordered by User hereunder, User shall</string>
+    <string name="resp1">- Subject to these Terms, we grant you a non-exclusive, non-transferable (without a right to sub-licence) license to install and
+        use the Reception App referred to in your Order during the applicable Subscription Term, in accordance with these Terms and the applicable Scope of Use.</string>
+    <string name="resp2">- Subject to these Terms, we grant you a non-exclusive, non-transferable (without a right to sub-licence) license to install and use
+        the Companion App during the applicable Subscription Term for the purpose of accessing and managing your use of the Reception App alongside the Management Portal.</string>
+    <string name="resp3">- Unless otherwise specified in your Order, for each Site that you purchase, you may install one production instance of the Reception App
+        on multiple Devices owned or operated by you (or your third party service providers so long as you remain responsible for their compliance with these Terms),
+        provided that such Devices shall operate within the Site</string>
+
+    <string name="warning">This will erase all configuration data and AI assistance log file form MCU, including:</string>
+    <string name="warning_include">- Your registration data\n- Module registration data\n- Downloaded firmware database</string>
+</resources>
